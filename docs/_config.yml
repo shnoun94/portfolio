@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : portfolYOU
+title               : portfolio
 description         : >-
                       I turn coffee :coffee: into code,
                       use tabs over spaces
@@ -26,13 +26,13 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : John Doe
+  name              : Elie Shanna
   image             : https://i.imgur.com/uyDNQnn.jpg
   behance           : your_username
 # dribbble          : your_username
-  email             : username@domain.com
+  email             : snna192@gmail.com
   facebook          : your_username
-  github            : your_username
+  github            : https://github.com/shnoun94
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
