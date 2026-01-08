@@ -1,7 +1,7 @@
 ---
-name: Empty Project
-tools: [Node JS, JavaScript, HTML, CSS]
+name: Site 
+tools: [HTML, CSS]
 image:
-description: This project has no image or showcase page, but it is still a beautiful project inside out!
-external_url: https://github.com/yousinix
+description: Site réaliser pour l'entretien d'entrée de l'école
+external_url: https://g976g7.csb.app
 ---
