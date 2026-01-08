@@ -1,12 +1,15 @@
 ### Site Settings ###
-title               : portfolio
-description         : >-
-                      Voici mon portfolio
+title               : Portfolio
+description         : Bonjours, voici mon portfolio
 baseurl             : "/shnoun94/portfolio.io"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : https://github.com/shnoun94      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
+author:
+  name              : YRN
+  image             : https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.DtHn2eZE8ObfxjfK3AFNgQHaHa%3Fpid%3DApi&f=1&ipt=9f36d4665c65c59bbc71b41dd091f52d02ba2c46a4fa6840e8ba50562917319f&ipo=images
+  github            : yousinix
 
 ### Plugins ###
 plugins:
@@ -25,7 +28,6 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Elie Shanna
   email             : snna192@gmail.com
-  facebook          : your_username
   github            : https://github.com/shnoun94
   linkedin          : your_username
 
