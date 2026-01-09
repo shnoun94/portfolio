@@ -6,10 +6,6 @@ repository          : https://github.com/shnoun94      # Change to <your-usernam
 remote_theme        : yousinix/portfolYOU
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
-author:
-  name              : YRN
-  image             : https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.DtHn2eZE8ObfxjfK3AFNgQHaHa%3Fpid%3DApi&f=1&ipt=9f36d4665c65c59bbc71b41dd091f52d02ba2c46a4fa6840e8ba50562917319f&ipo=images
-  github            : yousinix
 
 ### Plugins ###
 plugins:
@@ -27,6 +23,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Elie Shanna
+  image             : https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.DtHn2eZE8ObfxjfK3AFNgQHaHa%3Fpid%3DApi&f=1&ipt=ce6f0d630468893f8360febf432a154a35b4ff7d1c8302759aeea77a768b3732&ipo=images
   email             : snna192@gmail.com
   github            : https://github.com/shnoun94
   linkedin          : your_username
