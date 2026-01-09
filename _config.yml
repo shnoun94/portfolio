@@ -20,7 +20,7 @@ nav_exclude:                                            # The following paths ar
   - documentation/partials/**                           # For Documentation Only
 
 header_pages:
-- ../about.md
+- about.md
 
 ### Author Info ###
 author:
