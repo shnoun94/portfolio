@@ -1,0 +1,95 @@
+### Site Settings ###
+title               : Portfolio
+description         : Bonjours, voici mon portfolio
+baseurl             : "/shnoun94/portfolio.io"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : https://github.com/shnoun94      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : yousinix/portfolYOU
+open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
+
+
+### Author Info ###
+author:
+  name              : Elie Shanna
+  image             : https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%2Fid%2FOIP.DtHn2eZE8ObfxjfK3AFNgQHaHa%3Fpid%3DApi&f=1&ipt=ce6f0d630468893f8360febf432a154a35b4ff7d1c8302759aeea77a768b3732&ipo=images
+  email             : snna192@gmail.com
+  github            : https://github.com/shnoun94
+  linkedin          : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: false
+  username: your_username
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false     
+  - scope:
+      path: "img"
+    values:
+      image: true                              # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"

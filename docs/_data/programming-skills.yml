@@ -1,0 +1,6 @@
+- name: HTML5/CSS
+  percentage: 40
+  color: danger
+
+- name: PHP
+  percentage: 40
